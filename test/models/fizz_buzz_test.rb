@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require 'fizz_buzz'
+require_relative '../../lib/models/fizz_buzz'
 
 describe FizzBuzz do
   it 'returns "1" when receives 1' do
